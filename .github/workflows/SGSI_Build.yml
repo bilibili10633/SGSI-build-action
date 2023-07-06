@@ -3,6 +3,7 @@ name: SGSI_Build
 on:
   watch:
     types: [started]
+  push:
 
 jobs:
   build:
